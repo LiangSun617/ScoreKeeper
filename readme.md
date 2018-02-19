@@ -20,11 +20,11 @@ The app I made includes two main activities:
 
 - Score tracker: show the scores and rounds.
 
-<img src = "images/1.png" style="width:200px; height:350px" >
+<img src = "images/1.PNG" style="width:200px; height:350px" >
 
 - Result: show the statistics of scores and fouls of the whole game.
 
-<img src = "images/2.png" style="width:200px; height:350px" >
+<img src = "images/2.PNG" style="width:200px; height:350px" >
 
 ### 3. How My App Works
 #### Score Tracker
@@ -32,37 +32,37 @@ The app I made includes two main activities:
 
 For example, when player A scores, click “SCORE” below “Player A” to add 1 point for player A:
 
-<img src = "images/3.png" style="width:200px; height:350px" >
+<img src = "images/3.PNG" style="width:200px; height:350px" >
 
 When player A fouls, click “FOUL” below “Player A” to add 1 point for player B (we don’t click “SCORE” below “Player B” in this case, because we want to keep track of fouls for analysis after the game):
 
-<img src = "images/4.png" style="width:200px; height:350px" >
+<img src = "images/4.PNG" style="width:200px; height:350px" >
 
 - NEXT ROUND
 
 When one player reaches 11 points and at least 2 points ahead of the other player, the round is over. In this case, if we still hit SCORE or FOUL, the app will remind us to “Click Next Round” on the top of the screen:
 
-<img src = "images/5.png" style="width:200px; height:350px" >
-<img src = "images/11.png" style="width:200px; height:350px" >
+<img src = "images/5.PNG" style="width:200px; height:350px" >
+<img src = "images/11.PNG" style="width:200px; height:350px" >
 
 If we hit “NEXT ROUND” before the round is over, the app will give another hint “This round is not over”:
 
-<img src = "images/6.png" style="width:200px; height:350px" >
+<img src = "images/6.PNG" style="width:200px; height:350px" >
 
 When “NEXT ROUND” works, the individual scores for player A and B will be cleared to 0, and the total scores are calculated and shown on top of the screen. For example, the screen below shows “2-0” between player A and B:
 
-<img src = "images/7.png" style="width:200px; height:350px" >
+<img src = "images/7.PNG" style="width:200px; height:350px" >
 
 When a player has already won 4 rounds and we click “Next Round” or click “SCORE”, “FOUL” OR “NEXT ROUND”, the app will tell us “Player has won!”, which means the game is over:
 
-<img src = "images/12.png" style="width:200px; height:350px" >
+<img src = "images/12.PNG" style="width:200px; height:350px" >
 
 - Check Result
 
 When the game is over, we can check the result for a better understanding of the whole game, such as who scores more and who makes more fouls during the game:
 
 
-<img src = "images/10.png" style="width:200px; height:350px" > 
+<img src = "images/10.PNG" style="width:200px; height:350px" > 
 
 - Reset
 
